@@ -8,5 +8,10 @@
   "license": "MIT",
   "devDependencies": {
     "stylelint-webpack-plugin": "^0.10.5"
-  }
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin",
+    "stylelint"
+  ]
 }
