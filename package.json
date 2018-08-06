@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "https://github.com/danbruegge/gatsby-plugin-stylelint",
   "author": "Daniel Brüggemann",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "stylelint-webpack-plugin": "^0.10.5"
+  }
 }
