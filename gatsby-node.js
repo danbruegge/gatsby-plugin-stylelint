@@ -6,7 +6,10 @@
 
 const StyleLintPlugin = require("stylelint-webpack-plugin");
 
-exports.onCreateWebpackConfig = ({ actions }) =>
-  actions.setWebpackConfig({
+exports.onCreateWebpackConfig = ({ actions }, options) => {
+  console.log(options);
+
+  return actions.setWebpackConfig({
     plugins: [new StyleLintPlugin({ files: ["**/*.js*"] })]
   });
+}
