@@ -1,5 +1,5 @@
 # gatsby-plugin-stylelint
-Gatsby plugin to add support for [stylelint-webpack-plugin](plugin).
+Gatsby plugin to add support for [stylelint-webpack-plugin][plugin].
 
 ## Install
 `yarn add --dev gatsby-plugin-stylelint`
@@ -11,7 +11,7 @@ plugins: ["gatsby-plugin-stylelint"]
 ```
 
 If you need to pass options to `stylelint` use the plugins options, see
-[stylelint-webpack-plugin](options) for all available options.
+[stylelint-webpack-plugin][options] for all available options.
 
 ```javascript
 // In your gatsby-config.js
