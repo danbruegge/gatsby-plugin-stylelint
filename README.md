@@ -10,6 +10,7 @@ Gatsby plugin to add support for [stylelint-webpack-plugin][plugin].
 plugins: ["gatsby-plugin-stylelint"]
 ```
 
+## Configuration
 If you need to pass options to `stylelint` use the plugins options, see
 [stylelint-webpack-plugin][options] for all available options.
 
