@@ -13,6 +13,8 @@
   "keywords": [
     "gatsby",
     "gatsby-plugin",
-    "stylelint"
+    "webpack",
+    "stylelint",
+    "stylelint-webpack-plugin"
   ]
 }
