@@ -6,7 +6,8 @@
   "repository": "https://github.com/danbruegge/gatsby-plugin-stylelint",
   "author": "Daniel Brüggemann",
   "license": "MIT",
-  "dependencies": {
+  "peerDependencies": {
+    "gatsby": "next",
     "stylelint": "^9.4.0",
     "stylelint-webpack-plugin": "^0.10.5"
   },
