@@ -7,7 +7,7 @@
   "author": "Daniel Brüggemann",
   "license": "MIT",
   "peerDependencies": {
-    "gatsby": "next",
+    "gatsby": "^2.0.0-rc.0",
     "stylelint": "^9.4.0",
     "stylelint-webpack-plugin": "^0.10.5"
   },
