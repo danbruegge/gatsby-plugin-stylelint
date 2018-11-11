@@ -30,6 +30,11 @@ plugins: [
 ]
 ```
 
+## Example
+So see the plugin in action, look at my [example project][example-project].
+
+
 [plugin]: https://github.com/webpack-contrib/stylelint-webpack-plugin
 [options]: https://github.com/webpack-contrib/stylelint-webpack-plugin#options
 [stylelint-website]: https://stylelint.io/
+[example-project]: https://github.com/danbruegge/gatsby-starter-default-extended
