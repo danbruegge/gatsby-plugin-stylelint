@@ -31,7 +31,7 @@ plugins: [
 ```
 
 ## Example
-So see the plugin in action, look at my [example project][example-project].
+To see the plugin in action, look at my [example project][example-project].
 
 
 [plugin]: https://github.com/webpack-contrib/stylelint-webpack-plugin
