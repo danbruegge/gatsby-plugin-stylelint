@@ -6,7 +6,12 @@
 
 const StyleLintPlugin = require("stylelint-webpack-plugin");
 
-exports.onCreateWebpackConfig = ({ actions }, { plugins, ...options }) =>
+const defaultOptions = {
+  files: ["**/*.js*"]
+}
+
+exports.onCreateWebpackConfig = ({ actions }, { plugins, ...options }) => {
   actions.setWebpackConfig({
-    plugins: [new StyleLintPlugin(options)]
+    plugins: [new StyleLintPlugin({ ...defaultOptions, ...options })]
   });
+}
