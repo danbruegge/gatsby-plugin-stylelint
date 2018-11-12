@@ -25,7 +25,7 @@ If you need to pass options to `stylelint` use the plugins options, see
 plugins: [
   {
     resolve: "gatsby-plugin-stylelint",
-    options: { files: ["**/*.js*"] }
+    options: { files: ["**/*.jsx?"] }
   }
 ]
 ```

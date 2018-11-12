@@ -7,7 +7,7 @@
 const StyleLintPlugin = require("stylelint-webpack-plugin");
 
 const defaultOptions = {
-  files: ["**/*.js*"]
+  files: ["**/*.jsx?"]
 }
 
 exports.onCreateWebpackConfig = ({ actions }, { plugins, ...options }) => {
