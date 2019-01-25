@@ -19,8 +19,5 @@
     "webpack",
     "stylelint",
     "stylelint-webpack-plugin"
-  ],
-  "publishConfig": {
-    "access": "public"
-  }
+  ]
 }
