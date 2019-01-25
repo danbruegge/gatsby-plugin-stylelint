@@ -8,12 +8,12 @@ You need your own stylelint setup. Please have a look at the stylelint
 The intention of this plugin is to inject stylelint into webpack for gatsbyjs.
 
 ## Install
-`yarn add --dev gatsby-plugin-stylelint`
+`yarn add --dev @danbruegge/gatsby-plugin-stylelint`
 
 ## Usage
 ```javascript
 // In your gatsby-config.js
-plugins: ["gatsby-plugin-stylelint"]
+plugins: ["@danbruegge/gatsby-plugin-stylelint"]
 ```
 
 ## Configuration
@@ -24,7 +24,7 @@ If you need to pass options to `stylelint` use the plugins options, see
 // In your gatsby-config.js
 plugins: [
   {
-    resolve: "gatsby-plugin-stylelint",
+    resolve: "@danbruegge/gatsby-plugin-stylelint",
     options: { files: ["**/*.{js,jsx}"] }
   }
 ]
