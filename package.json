@@ -1,6 +1,6 @@
 {
-  "name": "gatsby-plugin-stylelint",
-  "version": "3.2.0",
+  "name": "@danbruegge/gatsby-plugin-stylelint",
+  "version": "3.3.0",
   "description": "Gatsby plugin to add support for stylelint",
   "main": "index.js",
   "repository": "https://github.com/danbruegge/gatsby-plugin-stylelint",
@@ -19,5 +19,8 @@
     "webpack",
     "stylelint",
     "stylelint-webpack-plugin"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
