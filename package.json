@@ -13,7 +13,7 @@
     "stylelint-webpack-plugin": "^0.10.5"
   },
   "peerDependencies": {
-    "gatsby": "^2.0.0-rc.0"
+    "gatsby": "^2.0.0"
   },
   "keywords": [
     "gatsby",
