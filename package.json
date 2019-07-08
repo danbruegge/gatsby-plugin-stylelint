@@ -10,7 +10,7 @@
     "stylelint": "^10.1.0"
   },
   "dependencies": {
-    "stylelint-webpack-plugin": "^0.10.5"
+    "stylelint-bare-webpack-plugin": "^1.1.1"
   },
   "peerDependencies": {
     "gatsby": "^2.0.0"

@@ -4,7 +4,7 @@
  * See: https://www.gatsbyjs.org/docs/node-apis/
  */
 
-const StyleLintPlugin = require("stylelint-webpack-plugin");
+const StylelintBarePlugin = require('stylelint-bare-webpack-plugin');
 
 const defaultOptions = {
   files: ["**/*.{js,jsx}"]
@@ -12,6 +12,6 @@ const defaultOptions = {
 
 exports.onCreateWebpackConfig = ({ actions }, { plugins, ...options }) => {
   actions.setWebpackConfig({
-    plugins: [new StyleLintPlugin({ ...defaultOptions, ...options })]
+    plugins: [new StylelintBarePlugin({ ...defaultOptions, ...options })]
   });
 }
