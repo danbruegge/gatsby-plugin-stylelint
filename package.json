@@ -7,13 +7,13 @@
   "author": "Daniel Brüggemann",
   "license": "MIT",
   "devDependencies": {
-    "stylelint": "^9.4.0"
+    "stylelint": "^12.0.0"
   },
   "dependencies": {
-    "stylelint-webpack-plugin": "^0.10.5"
+    "stylelint-bare-webpack-plugin": "^2.0.0"
   },
   "peerDependencies": {
-    "gatsby": "^2.0.0-rc.0"
+    "gatsby": "^2.0.0"
   },
   "keywords": [
     "gatsby",
