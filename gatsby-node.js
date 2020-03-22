@@ -7,8 +7,8 @@
 const StylelintBarePlugin = require('stylelint-bare-webpack-plugin');
 
 const defaultOptions = {
-  files: `${__dirname}/src/**/*.{js,jsx}`,
-}
+  files: "**/*.{js,jsx}"
+};
 
 exports.onCreateWebpackConfig = ({ actions }, { plugins, ...options }) => {
   actions.setWebpackConfig({
