@@ -1,6 +1,6 @@
 {
   "name": "@danbruegge/gatsby-plugin-stylelint",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "description": "Gatsby plugin to add support for stylelint",
   "main": "index.js",
   "repository": "https://github.com/danbruegge/gatsby-plugin-stylelint",
