@@ -1,5 +1,5 @@
 # gatsby-plugin-stylelint
-Gatsby plugin to add support for [stylelint-webpack-plugin][plugin].
+Gatsby plugin to add support for [stylelint-bare-webpack-plugin][plugin].
 
 ## Note
 You need your own stylelint setup. Please have a look at the stylelint
@@ -18,7 +18,7 @@ plugins: ["@danbruegge/gatsby-plugin-stylelint"]
 
 ## Configuration
 If you need to pass options to `stylelint` use the plugins options, see
-[stylelint-webpack-plugin][options] for all available options.
+[stylelint-bare-webpack-plugin][options] for all available options.
 
 ```javascript
 // In your gatsby-config.js
@@ -34,7 +34,7 @@ plugins: [
 To see the plugin in action, look at my [example project][example-project].
 
 
-[plugin]: https://github.com/webpack-contrib/stylelint-webpack-plugin
-[options]: https://github.com/webpack-contrib/stylelint-webpack-plugin#options
+[plugin]: https://github.com/cascornelissen/stylelint-bare-webpack-plugin
+[options]: https://github.com/cascornelissen/stylelint-bare-webpack-plugin#options
 [stylelint-website]: https://stylelint.io/
 [example-project]: https://github.com/danbruegge/gatsby-starter-default-extended
