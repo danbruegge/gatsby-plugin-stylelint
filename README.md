@@ -1,5 +1,5 @@
 # gatsby-plugin-stylelint
-Gatsby v2 plugin to add support for [stylelint-webpack-plugin][plugin].
+Gatsby plugin to add support for [stylelint-webpack-plugin][plugin].
 
 ## Note
 You need your own stylelint setup. Please have a look at the stylelint
