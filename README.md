@@ -1,3 +1,8 @@
+# New Maintainer needed
+https://github.com/danbruegge/gatsby-plugin-stylelint/issues/20
+
+---
+
 # gatsby-plugin-stylelint
 Gatsby plugin to add support for [stylelint-bare-webpack-plugin][plugin].
 
