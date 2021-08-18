@@ -42,4 +42,4 @@ To see the plugin in action, look at my [example project][example-project].
 [plugin]: https://github.com/cascornelissen/stylelint-bare-webpack-plugin
 [options]: https://github.com/cascornelissen/stylelint-bare-webpack-plugin#options
 [stylelint-website]: https://stylelint.io/
-[example-project]: https://github.com/danbruegge/gatsby-starter-default-extended
+[example-project]: https://github.com/danbruegge/gatsby-starter-kitt
